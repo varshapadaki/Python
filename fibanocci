@@ -1,0 +1,20 @@
+def fibonacci(limit):
+    # Initialize the first two Fibonacci numbers
+    a, b = 0, 1
+    # Print the first two Fibonacci numbers
+    print(a, end=", ")
+    print(b, end=", ")
+    
+    # Generate Fibonacci sequence up to the limit
+    while True:
+        c = a + b
+        if c > limit:
+            break
+        print(c, end=", ")
+        a, b = b, c
+
+# Example usage:
+limit = 5  # Change the limit as per your requirement
+fibonacci(limit)
+
+    
