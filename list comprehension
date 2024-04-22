@@ -1,0 +1,41 @@
+n=[10,20,30,40,50]
+#list comprehension to create new list
+doubled_n=[num*2 for num in n]
+print(doubled_n)
+
+
+n=[10,20,30,40,50]
+square_n=[]
+#for loop to square each elements
+for num in n:
+    square_n.append(num*2)
+print(square_n)#same code without using listcomprehersion
+
+
+n=[10,20,30,40,50]
+square_n=[]
+#for loop to square each elements
+for num in n:
+    square_n.append(num*num)
+print(square_n)#same code without using listcomprehersion
+
+
+n=[10,20,30,40,50]
+#create a new list using list comprehension
+square_n=[num*num for num in n]
+print(square_n)
+
+
+#conditionals in list comprehension
+#[expression for item in list if condition == true]
+#filtering even numbers from a list
+even_n=[num for num in range(1,10) if num % 2 == 0]
+print(even_n)
+
+
+word='Balaji'
+vowels='aeiou'
+#find vowel in string 'Balaji'
+result=[char for char in word if char in vowels]
+print(result)
+
