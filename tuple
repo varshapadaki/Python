@@ -1,0 +1,25 @@
+prem=(10,20,30)#paranthesis()=tuple , squarebracket[]=lists
+print(prem)
+print(type(prem))
+
+#or
+
+ratan=tuple([40,50,60])#if we write list instead of tuple then it will bcme list
+print(ratan)
+print(type(ratan))
+
+dhanpayo=list([70,80,90])
+print(dhanpayo)
+print(type(dhanpayo))
+
+print(prem[1])
+print(prem[-1])
+print(prem[-3])
+print(prem[0:4])
+print(prem[1:4:2])
+# prem[0]=500
+print(prem)
+print(type(prem))
+
+for i in range(-10,10,2):
+    print(i+1)
