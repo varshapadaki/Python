@@ -1,0 +1,7 @@
+l=21
+n=int(input("enter the number of lemons"))
+print(((l-n),'lemons are less') if(n<l) else ((n-l),'lemons are extra') if(n>l) else 'lemons are equal')
+
+l=int(input("enter the lemons:"))
+print('extra by {}'.format(l-21) if l>21 else 'less by {}'.format(21-1) if l<21 else 'sufficient')
+
