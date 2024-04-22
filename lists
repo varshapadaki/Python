@@ -1,0 +1,51 @@
+apple=[10,5,30]
+print(apple)
+print(apple[1])
+print(apple[-1])
+print(apple[-3])
+#print(apple[4]) list index out of box
+print("for iteration via access elements")
+for i in apple:
+    print(i)
+print("after changed")
+apple[1]=20
+print(apple)
+
+varsha=[10,'vaishnavi',250000.75,'z']
+print(varsha)
+
+for i in varsha:
+    print(i,end='-')
+print()
+
+sahana=['z','preethi',250000.75,10]#index value changed
+print(sahana)
+print(sahana==varsha)
+
+apple=[1,2,3]
+print(apple)
+apple[1]=(4,5)#multiple elements for same index value
+print(apple)
+print(apple[1])
+a[1:2]=(16,6,5)#1:2 means we can add any elements in btw these index values
+#if we consider n-1 then we can all atleast 1 value in btw but if more elements are present then it is allocated dynamically
+print(apple)
+a[3]=500,600,700
+print(apple)
+apple[1:4]=(-10,-20,-30)
+print(apple)
+
+college=[10,20,30,40,50]
+print(college[1])
+print(college[-1])
+print(college[1:3])
+print(college[1:7])
+#print(college[7])
+print(college[:])
+print(college[-4:-1])
+print(college[3:-1])
+print(college[1:])
+print(college[:-1])
+print(college[0:])
+print(college[0:4:3])
+
