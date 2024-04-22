@@ -1,0 +1,23 @@
+a=-5
+print(abs(a))
+
+a=24
+print(abs(a))
+
+a=-5
+print(abs(a))#absoulte method
+
+print(pow(2,3))#power method
+
+#sqrt(25) wont execute bze it is not defined
+import math
+a=math.sqrt(5)
+print(a)
+
+b=math.ceil(a) #around figure of floating value
+print(b)
+
+c=math.floor(a) #gives the integer value of floating value
+print(c)
+
+print(math.ceil(-5.01)) #biggest value with round figure
