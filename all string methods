@@ -1,0 +1,75 @@
+# Define a sample string
+my_string = "   Hello, World!   "
+
+# 1. String Length
+string_length = len(my_string)
+
+# 2. String Concatenation
+concatenated_string = my_string + " Welcome!"
+
+# 3. String Repetition
+repeated_string = my_string * 3
+
+# 4. Accessing Characters by Index
+first_char = my_string[0]
+last_char = my_string[-1]
+
+# 5. Substring Extraction
+substring = my_string[7:12]
+
+# 6. String Case Conversion
+upper_case = my_string.upper()
+lower_case = my_string.lower()
+
+# 7. Checking if a String Starts/Ends with a Substring
+starts_with = my_string.startswith("   ")
+ends_with = my_string.endswith("   ")
+
+# 8. String Splitting
+word_list = my_string.split(",")
+
+# 9. String Stripping
+stripped_string = my_string.strip()
+
+# 10. Replacing Substrings
+replaced_string = my_string.replace("World", "Universe")
+
+# 11. String Formatting
+name = "John"
+formatted_string = "Hello, {}!".format(name)
+f_string = f"Hello, {name}!"
+
+# 12. String Joining
+word_list = ["one", "two", "three"]
+joined_string = "-".join(word_list)
+
+# 13. Finding Substrings
+index = my_string.find("World")
+
+# 14. Counting Occurrences of a Substring
+count = my_string.count("l")
+
+# 15. Checking if the String Contains Only Alphanumeric Characters
+is_alphanumeric = my_string.isalnum()
+
+# Print results
+print("String Length:", string_length)
+print("Concatenated String:", concatenated_string)
+print("Repeated String:", repeated_string)
+print("First Character:", first_char)
+print("Last Character:", last_char)
+print("Substring:", substring)
+print("Upper Case:", upper_case)
+print("Lower Case:", lower_case)
+print("Starts with '   ':", starts_with)
+print("Ends with '   ':", ends_with)
+print("Word List:", word_list)
+print("Stripped String:", stripped_string)
+print("Replaced String:", replaced_string)
+print("Formatted String:", formatted_string)
+print("F-String:", f_string)
+print("Joined String:", joined_string)
+print("Index of 'World':", index)
+print("Count of 'l':", count)
+print("Is Alphanumeric:", is_alphanumeric)
+
